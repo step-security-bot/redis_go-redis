@@ -8,3 +8,63 @@ updates:
   directory: /
   schedule:
     interval: weekly
+
+- package-ecosystem: gomod
+  directory: /example/del-keys-without-ttl
+  schedule:
+    interval: daily
+
+- package-ecosystem: gomod
+  directory: /example/hll
+  schedule:
+    interval: daily
+
+- package-ecosystem: gomod
+  directory: /example/hset-struct
+  schedule:
+    interval: daily
+
+- package-ecosystem: gomod
+  directory: /example/lua-scripting
+  schedule:
+    interval: daily
+
+- package-ecosystem: gomod
+  directory: /example/otel
+  schedule:
+    interval: daily
+
+- package-ecosystem: gomod
+  directory: /example/redis-bloom
+  schedule:
+    interval: daily
+
+- package-ecosystem: gomod
+  directory: /example/scan-struct
+  schedule:
+    interval: daily
+
+- package-ecosystem: gomod
+  directory: /extra/rediscensus
+  schedule:
+    interval: daily
+
+- package-ecosystem: gomod
+  directory: /extra/rediscmd
+  schedule:
+    interval: daily
+
+- package-ecosystem: gomod
+  directory: /extra/redisotel
+  schedule:
+    interval: daily
+
+- package-ecosystem: gomod
+  directory: /extra/redisprometheus
+  schedule:
+    interval: daily
+
+- package-ecosystem: gomod
+  directory: /internal/customvet
+  schedule:
+    interval: daily
